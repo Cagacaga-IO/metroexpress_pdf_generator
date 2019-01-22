@@ -1,0 +1,83 @@
+.plusbutton {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #F8C300;
+  color: white;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+
+
+  &:active {
+   opacity: 0.8
+  }
+  &:focus{
+    outline: none
+  }
+}
+
+
+.plusbuttonRed {
+  min-width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  color: #f81116;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+
+
+  &:active {
+    opacity: 0.8
+  }
+  &:focus{
+    outline: none
+  }
+}
+
+
+
+.getPdfButtondisabled {
+ width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #CBD3DA;
+  color: white;
+  outline: none;
+  border: none;
+  &:focus{
+    outline: none
+  }
+}
+
+.getPdfButtonenable {
+  width: 100%;
+  height: 60px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #399DFF;
+  color: white;
+  outline: none;
+  border: none;
+
+  &:active {
+    opacity: 0.8
+  }
+  &:focus{
+    outline: none
+  }
+}
+
+.spans {
+  display: flex;
+  justify-content: center;
+}

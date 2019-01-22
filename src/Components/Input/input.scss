@@ -1,0 +1,14 @@
+.styledInput {
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  &::placeholder{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+  &:focus{
+    outline: none
+  }
+}
+
